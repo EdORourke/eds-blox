@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "eds-blox/clix",
+	"version": "1.0.0",
+	"title": "Clix",
+	"category": "eds-blox",
+	"description": "Clix Group",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"link": false,
+			"gradients": true,
+			"enableContrastChecker": true
+		},
+		"spacing": {
+			"padding": true
+		},
+		"border": {
+			"radius": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": false
+		}
+	},
+	"keywords": [],
+	"textdomain": "eds-blox",
+	"attributes": {
+		"postType": {
+			"type": "string",
+			"default": ""
+		},
+		"linkedPost": {
+			"type": "number"
+		},
+		"labelText": {
+			"type": "string",
+			"default": ""
+		},
+		"style": {
+			"type": "object",
+			"default": {
+				"color": {
+					"background": "#00b2c9",
+					"text": "#222222"
+				},
+				"spacing": {
+					"padding": {
+						"top": "6px",
+						"right": "20px",
+						"bottom": "6px",
+						"left": "20px"
+					}
+				},
+				"typography": {
+					"fontSize": "18px"
+				}
+			}
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"parent": ["eds-blox/clix-group"]
+}

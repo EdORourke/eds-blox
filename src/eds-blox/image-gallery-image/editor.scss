@@ -1,0 +1,28 @@
+.wp-block-eds-blox-image-gallery-image {
+	.media-select {
+		width: 100%;
+		padding: 10px 20px;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 10px;
+		cursor: pointer;
+		background-color: #dddddd;
+		box-sizing: border-box;
+
+		&:hover {
+			background-color: #cccccc;
+		}
+	}
+}
+.image-placeholder {
+	height: 150px;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image-placeholder span svg {
+	height: 40px;
+	width: auto;
+}

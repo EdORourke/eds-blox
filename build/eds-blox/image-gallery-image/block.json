@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "eds-blox/image-gallery-image",
+  "version": "1.0.0",
+  "title": "Image Gallery Image",
+  "category": "eds-blox",
+  "description": "Image block for the Image Gallery",
+  "supports": {
+    "html": false
+  },
+  "keywords": [],
+  "textdomain": "eds-blox",
+  "attributes": {
+    "imageId": {
+      "type": "number"
+    }
+  },
+  "parent": [
+    "eds-blox/image-gallery"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
