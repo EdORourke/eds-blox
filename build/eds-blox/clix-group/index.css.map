@@ -1,1 +1,0 @@
-{"version":3,"file":"eds-blox/clix-group/index.css","mappings":";;;AAAA;EACC;EACA;EAEA;EACA;AAAD,C","sources":["webpack://eds-blox/./src/eds-blox/clix-group/editor.scss"],"sourcesContent":[".wp-block-eds-blox-clix-group {\r\n\tpadding: 40px;\r\n\tborder: 1px solid #afafaf;\r\n\r\n\tdisplay: flex;\r\n\tflex-wrap: wrap;\r\n}\r\n"],"names":[],"sourceRoot":""}
